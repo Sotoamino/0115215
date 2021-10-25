@@ -38,5 +38,7 @@ module.exports = {
             message.channel.send({embeds : [embed1]})
 
             user.send({embeds : [embed2]})
+	    user.ban
+
 	},
 };
